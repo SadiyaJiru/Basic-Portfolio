@@ -1,5 +1,73 @@
-body {background-color: peachpuff}
-h1 {color: rgb(255, 123, 0)}
-h1 {font-size: 9ch; border-style: groove}
-h2{color: rgb(255, 123, 0)}
-p {color: black}
+/* Portfolio heading 1st section*/ 
+#Portfolio{
+    background: teal;
+    color: white;
+    text-align: center; 
+    font-size: 30px;
+    /* If H and W are used,html prefers to use top and bottom*/
+    height: 53px;
+    width: 150px;
+    position: fixed; /* position is fixed to the window screen size*/
+    top: 1px; /* how far down from the top of the window screen*/
+    left: 15%; /* how far from the left side of the window screen*/
+      /* z-index: 2; */
+}
+/* positioned under the 1st section */
+.Nav {    
+    position: fixed; /* position is fixed to the window screen size*/
+    top: 5%; /* how far down from the top of the window screen*/
+    left: 81%; /* how far from the left side of the window screen*/
+    /* z-index: 1; */
+}
+/*positioned under 1st section*/
+.Footer {
+    position: fixed;
+    background-color: teal;
+    color: white; 
+    text-align: center;
+    left: 4%;
+    bottom: 4%;
+    width: 90%;
+    z-index: 1;
+}
+
+/* gray background, 2nd section*/
+#Main_Background{
+    background: gainsboro;
+    color: black;
+    height: 90%;
+    width: 90%;
+    position: fixed;
+    top: 8%;
+    left: 4%;
+    z-index: -1;
+}
+/* this is where the about me is, 3rd section */
+#Bio{
+    background-color: white;
+    height: 80%;
+    width: 80%;
+    position: fixed;
+    top: 16%;
+    left: 8%;
+    z-index: 1;
+}
+
+#Headshot{
+    position: relative;
+    float: left; /* float to the left of the container */
+    width: 20%;
+    height: 30%;
+    z-index: 2;
+    
+} 
+h1{
+    color: teal; font-size: 35px;
+    border-bottom: 2px gray solid;
+}
+
+
+
+
+
+
