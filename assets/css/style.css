@@ -1,6 +1,7 @@
+ 
 /* Portfolio heading 1st section*/ 
-#Portfolio{
-    background: teal;
+.Outerpage{
+    background: violet;
     color: white;
     text-align: center; 
     font-size: 30px;
@@ -22,7 +23,7 @@
 /*positioned under 1st section*/
 .Footer {
     position: fixed;
-    background-color: teal;
+    background-color:#cccccc;
     color: white; 
     text-align: center;
     left: 4%;
@@ -43,7 +44,7 @@
     z-index: -1;
 }
 /* this is where the about me is, 3rd section */
-#Bio{
+.Bio{
     background-color: white;
     height: 80%;
     width: 80%;
@@ -62,7 +63,8 @@
     
 } 
 h1{
-    color: teal; font-size: 35px;
+    color:#4aaaa5; font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     border-bottom: 2px gray solid;
 }
 
